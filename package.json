@@ -1,0 +1,26 @@
+{
+  "name": "logseq-power-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "hkgnp",
+  "license": "MIT",
+  "dependencies": {
+    "@logseq/libs": "^0.0.6"
+  },
+  "logseq": {
+    "id": "logseq-power-plugin",
+    "title": "logseq-power-plugin",
+    "icon": "./icon.svg"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
