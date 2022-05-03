@@ -7,6 +7,7 @@ import { callStyle } from "./style";
 let count = 0;
 let combo = 0;
 
+// Credits: https://stackoverflow.com/a/8126515/14728340
 function Timer(fn: Function, t: number) {
   var timerObj = setInterval(fn, t);
 
